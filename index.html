@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b46"><meta name="description" content="MiraTransfer demo — no real transfers">
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+<title>MiraTransfer</title>
+</head>
+<body>
+<header><a class="brand" href="#"><b>M</b> MiraTransfer</a><select id="language" aria-label="Language"><option value="fr">Français</option><option value="en">English</option><option value="ar">العربية</option><option value="so">Soomaali</option></select></header>
+<main>
+<section class="hero"><small data-i18n="eyebrow">SIMPLE • CLAIR • ACCESSIBLE</small><h1 data-i18n="headline">Envoyez de l’argent, en toute simplicité.</h1><p data-i18n="sub">Une expérience pensée pour rapprocher les familles, où qu’elles soient.</p><aside data-i18n="demo">Démonstration uniquement — aucun argent réel n’est envoyé.</aside></section>
+<section class="panel"><h2 data-i18n="prepare">Préparer un envoi</h2><form id="transfer"><label for="amount" data-i18n="amount">Vous envoyez</label><div class="amount"><input id="amount" type="number" min="1" max="10000" value="100" required><select id="currency"><option>USD</option><option>EUR</option><option>CAD</option><option>GBP</option></select></div><label for="country" data-i18n="country">Pays de destination</label><select id="country"><option>Somalia</option><option>Kenya</option><option>Egypt</option></select><label for="method" data-i18n="method">Mode de réception</label><select id="method"><option>Mobile Money</option><option>Bank transfer</option></select><button data-i18n="button">Voir le récapitulatif →</button></form><p id="result" aria-live="polite"></p><small data-i18n="note">Aucun paiement, frais ou taux de change réel n’est appliqué.</small></section>
+<section class="features"><article><b>🌍</b><h3 data-i18n="f1">Quatre langues</h3><p data-i18n="f1p">Français, anglais, arabe et somali.</p></article><article><b>📱</b><h3 data-i18n="f2">Adapté au téléphone</h3><p data-i18n="f2p">Une interface simple sur petit écran.</p></article><article><b>🤝</b><h3 data-i18n="f3">La confiance d’abord</h3><p data-i18n="f3p">Les transferts réels nécessiteront des partenaires agréés et les autorisations nécessaires.</p></article></section>
+</main><footer>© MiraTransfer · <span data-i18n="footer">Prototype — pas un service financier</span></footer><script src="app.js"></script>
+</body></html>
